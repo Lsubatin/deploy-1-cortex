@@ -27,11 +27,11 @@ Your deployment will require some decisions from you. Here we would explain what
 
 The config.json file governs all of the deployment parameters. 
 
-<walkthrough-editor-open-file filePath="./deploy-1-cortex/config/config.json"> Open file</walkthrough-editor-open-file>
+<walkthrough-editor-open-file filePath="./cloudshell_open/deploy-1-cortex/config/config.json"> Open file</walkthrough-editor-open-file>
 
 ### Fill in the source project 
 
-In the file, following `projectIdSource` use the follwoing value:
+In the file, following `projectIdSource` use the this value:
 
  _<walkthrough-project-name/>_ 
 
