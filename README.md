@@ -1,22 +1,42 @@
-# Deploy 1 Cortex right now!
+# Cortex guided deployment
+<walkthrough-tutorial-duration duration="30min"></walkthrough-tutorial-duration>
 
-## First step
+## Please select a project for deployment or create one.
 
-Select random files cause you can point at them.
+This project will be used:
+-   As the source project for Cortex data 
+-   To execute the deployment steps. 
 
-<walkthrough-editor-spotlight spotlightId="menu-file">File menu</walkthrough-editor-spotlight>
+For more information visit [the Data Foundation Documentation](https://github.com/GoogleCloudPlatform/cortex-data-foundation#gather-the-parameters-for-deployment).
 
-### Fill in deployment parameters
+<walkthrough-project-setup></walkthrough-project-setup>
 
-Configure your deployment with a stabby.
+## Would you like to learn how this works or just deploy in one click?
 
-<walkthrough-editor-open-file filePath="config/hello.md"> Open file
-</walkthrough-editor-open-file>
+**Looking to learn how deployment works?** Choose **Next** and we will walk you through the steps.
 
-### Part 2
+**For Demo installations only**, we can automatically create test datasets and artifacts for you in a few clicks. Navigate to the following tutorial. <walkthrough-load-tutorial-url tutorialId="TUTORIAL_ID">**Please use your imagination :)**</walkthrough-load-tutorial-url>
 
-Sit back, relax and enjoy!
+<walkthrough-footnote>The 1-Click deployment would create all datasets and GCS buckets. </walkthrough-footnote>
+
+## Fill in deployment parameters
+
+Your deployment will require some decisions from you. Here we would explain what source and taregt projects are.
+
+### Open the configuration file
+
+The config.json file governs all of the deployment parameters. 
+
+<walkthrough-editor-open-file filePath="./deploy-1-cortex/config/config.json"> Open file</walkthrough-editor-open-file>
+
+### Fill in the source project 
+
+In the file, following `projectIdSource` use the follwoing value:
+
+ _<walkthrough-project-name/>_ 
 
 ## Conclusion
 
-Stabby stabby
+Thanks for using your imagination! 
+
+<walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
