@@ -25,7 +25,13 @@ For more information visit [the Data Foundation Documentation](https://github.co
 
 **Looking to learn how deployment works?**
 
-- <walkthrough-editor-open-file filePath="config/config.json">Open configuration file `config/config.json`</walkthrough-editor-open-file>
+- Run these commands in Cloud Shell
+
+```bash
+cloudshell open config/config.json
+cloudshell workspace .
+```
+
 - Follow [deployment instructions in README](https://github.com/GoogleCloudPlatform/cortex-data-foundation/blob/main/README.md#deployment)
 
 **For Demo installations only**, we can automatically create test datasets and artifacts for you in a few clicks.
