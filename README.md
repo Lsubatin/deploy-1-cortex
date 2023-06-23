@@ -1,42 +1,17 @@
-# Cortex guided deployment
-<walkthrough-tutorial-duration duration="30min"></walkthrough-tutorial-duration>
+# Google Cloud Cortex Framework
 
-## Please select a project for deployment or create one.
+## About the Data Foundation for Google Cloud Cortex Framework
 
-This project will be used:
--   As the source project for Cortex data 
--   To execute the deployment steps. 
+The Data Foundation for [Google Cloud Cortex Framework](https://cloud.google.com/solutions/cortex) is a set of analytical artifacts, that can be automatically deployed together with reference architectures.
 
-For more information visit [the Data Foundation Documentation](https://github.com/GoogleCloudPlatform/cortex-data-foundation#gather-the-parameters-for-deployment).
+The current repository contains the analytical views and models that serve as a foundational data layer for the Google Cloud Cortex Framework in BigQuery.
 
-<walkthrough-project-setup></walkthrough-project-setup>
+## TL;DR for setup
 
-## Would you like to learn how this works or just deploy in one click?
+If you are in a hurry and already know what you are doing, use the button below.
 
-**Looking to learn how deployment works?** Choose **Next** and we will walk you through the steps.
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://shell.cloud.google.com/cloudshell/?terminal=true&show=terminal&cloudshell_git_repo=https%3A%2F%2Fgithub.com%2FLsubatin%2Fdeploy-1-cortex&cloudshell_tutorial=docs%2Ftutorial.md)
 
-**For Demo installations only**, we can automatically create test datasets and artifacts for you in a few clicks. Navigate to the following tutorial. <walkthrough-load-tutorial-url tutorialId="TUTORIAL_ID">**Please use your imagination :)**</walkthrough-load-tutorial-url>
+## Deployment
 
-<walkthrough-footnote>The 1-Click deployment would create all datasets and GCS buckets. </walkthrough-footnote>
-
-## Fill in deployment parameters
-
-Your deployment will require some decisions from you. Here we would explain what source and taregt projects are.
-
-### Open the configuration file
-
-The config.json file governs all of the deployment parameters. 
-
-<walkthrough-editor-open-file filePath="./cloudshell_open/deploy-1-cortex/config/config.json"> Open file</walkthrough-editor-open-file>
-
-### Fill in the source project 
-
-In the file, following `projectIdSource` use the this value:
-
- _<walkthrough-project-name/>_ 
-
-## Conclusion
-
-Thanks for using your imagination! 
-
-<walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
+You can find a step-by-step video going through a deployment with sample data in YouTube: [`[English version]`](https://youtu.be/pxfxOYPQw9E) - [`[Version en Español]`](https://youtu.be/1j1Kz27VHVo )
