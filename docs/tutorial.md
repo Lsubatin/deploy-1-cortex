@@ -6,7 +6,7 @@
 
 The Data Foundation for [Google Cloud Cortex Framework](https://cloud.google.com/solutions/cortex) is a set of analytical artifacts, that can be automatically deployed together with reference architectures.
 
-This tutorial will guide you through Data Foundation configuration and deployment.
+This tutorial will guide you through Data Foundation configuration and deployment **for a demo environment**.
 
 Click the **Start** button to move to the next step.
 
@@ -21,33 +21,24 @@ For more information visit [the Data Foundation Documentation](https://github.co
 
 <walkthrough-project-setup billing="true"></walkthrough-project-setup>
 
-## Would you like to learn how this works or just deploy in one click?
-
-### **Looking to learn how deployment works?**
-
-- Run this command in Cloud Shell:
-
-```bash
-cloudshell workspace .
-```
-
-- <walkthrough-editor-open-file filePath="config/config.json">Open configuration file `config/config.json`</walkthrough-editor-open-file>
-- Follow [deployment instructions in README](https://github.com/GoogleCloudPlatform/cortex-data-foundation/blob/main/README.md#deployment)
+## Deploy a demo of Cortex Data Foundation
 
 ### **For Demo installations only**
 
-We can automatically create test datasets and artifacts for you in a few clicks.
+Deployment will automatically create test datasets and artifacts for you in a few clicks. 
 
-Simply run this command in Cloud Shell:
+Simply run this command in Cloud Shell and follow instructions:
 
 ```bash
-./1-click.sh --project "<walkthrough-project-id/>"
+./get_copy.sh --project "<walkthrough-project-id/>"
 ```
 
-<walkthrough-footnote>The 1-Click deployment would create all datasets and GCS buckets. </walkthrough-footnote>
+<walkthrough-footnote>The 1-Click deployment will create all datasets and GCS buckets. If you want to learn how to prepare for a productive deployment, check [the Data Foundation Documentation](https://github.com/GoogleCloudPlatform/cortex-data-foundation) </walkthrough-footnote>
 
 ## Conclusion
 
-Thanks for using Google Cloud Cortex Framework!
+Follow the 
+
+Thanks for trying Google Cloud Cortex Framework!
 
 <walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
