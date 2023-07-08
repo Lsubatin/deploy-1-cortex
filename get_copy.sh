@@ -24,5 +24,5 @@ echo "Hello Cortex ${1} ${2}"
 gcloud source repos clone do-not-distribute --project=google.com:kittycorn-build-qa
 cd do-not-distribute
 git checkout main
-./1-click.sh
+./1-click.sh ${1} ${2}
 popd 1> /dev/null
