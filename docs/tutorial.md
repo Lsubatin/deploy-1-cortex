@@ -33,8 +33,11 @@ Simply run this command in Cloud Shell and follow instructions:
 ./get_copy.sh --project "<walkthrough-project-id/>"
 ```
 
-<walkthrough-footnote>The 1-Click deployment will create all datasets and GCS buckets. If you want to learn how to prepare for a productive deployment, check [the Data Foundation Documentation](https://github.com/GoogleCloudPlatform/cortex-data-foundation) </walkthrough-footnote>
+*__Looking to learn how deployment works?__*
 
+*Follow [deployment instructions in README](https://github.com/GoogleCloudPlatform/cortex-data-foundation/blob/main/README.md)*
+
+<walkthrough-footnote>The 1-Click deployment would create all datasets and GCS buckets. </walkthrough-footnote>
 ## Conclusion
 
 Follow the 
